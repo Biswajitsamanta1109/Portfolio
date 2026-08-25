@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obstacle Detecting Car</title>
+  <link rel="stylesheet" href="../static/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body >
+
+
+      <header id="header">
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="skill.html">Skill</a>
+        <a class="nav" href="projects.html">Projects</a>
+        <a class="nav" href="internship.html">Internship</a>
+        <a class="nav" href="contact.html">Contact</a>
+      </header>
+
+      <main>
+          <div id="projecbody">
+
+              <h1>Obstacle Detecting Car</h1>
+              <br>
+              <br>
+
+              <section class="mb-4">
+                  <h2>Working</h2>
+                  <p>
+                      An obstacle-detecting robot car uses an ultrasonic sensor to emit high-frequency sound waves.
+                      When these waves hit an object, they bounce back as echoes. The robot's microcontroller
+                      calculates the distance to the obstacle and automatically directs the wheels to turn or
+                      reverse, avoiding collisions.
+                  </p>
+              </section>
+
+              <section class="mb-4">
+                  <h2>Working Process</h2>
+                  <ul>
+                      <li><strong>Emission:</strong> The sensor's Trig (Trigger) pin sends out a high-frequency sound wave burst into the environment.</li>
+                      <li><strong>Reflection:</strong> If the wave hits an obstacle, it bounces off the object and returns to the sensor, where it's detected by the Echo pin.</li>
+                      <li><strong>Calculation:</strong> The microcontroller measures the time it takes for the wave to travel to the object and back. Using the known speed of sound in the air, the board calculates the exact distance to the obstacle.</li>
+                      <li><strong>Decision Making:</strong> The microcontroller continuously compares this calculated distance against a pre-set threshold (e.g., 15 cm or 20 cm).</li>
+                  </ul>
+                  <ul>
+                      <li><strong>If no obstacle is detected:</strong> The robot moves forward.</li>
+                      <li><strong>If an obstacle enters the threshold:</strong> The robot stops, backs up, and turns to find a clearer path.</li>
+                  </ul>
+              </section>
+
+              <section class="mb-4">
+                  <h2>Components Required</h2>
+                  <table class="table table-bordered table-striped">
+                      <thead>
+                          <tr><th>Component</th><th>Quantity</th></tr>
+                      </thead>
+                      <tbody>
+                          <tr><td>Arduino Uno</td><td>1</td></tr>
+                          <tr><td>HC-SR04 Ultrasonic Sensor</td><td>1</td></tr>
+                          <tr><td>L298N Motor Driver</td><td>1</td></tr>
+                          <tr><td>DC Motors</td><td>4</td></tr>
+                          <tr><td>Robot Chassis</td><td>1</td></tr>
+                          <tr><td>Battery Pack</td><td>1</td></tr>
+                      </tbody>
+                  </table>
+              </section>
+              <section class="mb-4" id="projectPhotos">
+                       <h2>Project Image</h2>
+                    <img src="../images/project1.jpeg" alt="IR Line Follower Car - Front View">
+              </section>
+                          
+          </div>
+      </main>
+
+
+
+      <footer class="footer">
+        <p>&copy;2026 My Portfolio. All rights reserved.</p>
+      </footer>
+
+
+
+
+
+
+
+<script src="../static/static.js" defer></script>
+</body>
+
+</html>
