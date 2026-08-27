@@ -49,3 +49,69 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(".same4");
+
+  elements.forEach((el) => {
+    el.addEventListener("mouseenter", () => {
+      el.style.transform = "scale(1.08)";
+      el.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.4)";
+    });
+
+    el.addEventListener("mouseleave", () => {
+      el.style.transform = "scale(1)";
+      el.style.boxShadow = "none";
+    });
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(".same5");
+
+  elements.forEach((el) => {
+    el.addEventListener("mouseenter", () => {
+      el.style.transform = "scale(1.08)";
+      el.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.4)";
+    });
+
+    el.addEventListener("mouseleave", () => {
+      el.style.transform = "scale(1)";
+      el.style.boxShadow = "none";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(".same6");
+
+  elements.forEach((el) => {
+    el.addEventListener("mouseenter", () => {
+      el.style.transform = "scale(1.08)";
+      el.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.4)";
+    });
+
+    el.addEventListener("mouseleave", () => {
+      el.style.transform = "scale(1)";
+      el.style.boxShadow = "none";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(".same7");
+
+  elements.forEach((el) => {
+    el.addEventListener("mouseenter", () => {
+      el.style.transform = "scale(1.08)";
+      el.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.4)";
+    });
+
+    el.addEventListener("mouseleave", () => {
+      el.style.transform = "scale(1)";
+      el.style.boxShadow = "none";
+    });
+  });
+});

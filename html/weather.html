@@ -22,8 +22,63 @@
       </header>
 
       <main id ="weatherbody">
-            
+          <div id="projecbody">
+                <h1>Weather Monitoring</h1>
+                <br>
+                <br>
 
+                <section class="mb-4">
+                    <p>
+                        A weather monitoring system using a DHT11 sensor and ThingSpeak operates by having a
+                        microcontroller (like ESP32) read temperature and humidity data from the sensor. The
+                        microcontroller then connects to a local Wi-Fi network and pushes the data to ThingSpeak
+                        over the internet, which plots it in real-time.
+                    </p>
+                </section>
+
+                <section class="mb-4">
+                    <h2>Working</h2>
+
+                    <h3>1. Sensing (DHT Sensor)</h3>
+                    <p>The DHT sensor continuously measures the surrounding air's temperature and humidity. It converts these physical environmental conditions into digital signals.</p>
+
+                    <h3>2. Processing (ESP32)</h3>
+                    <p>The ESP32 microcontroller acts as the "brain." It reads the digital signals from the DHT sensor at regular intervals and processes the data into readable temperature and humidity values.</p>
+
+                    <h3>3. Connectivity (Wi-Fi)</h3>
+                    <p>Using its built-in Wi-Fi module, the ESP32 connects to your local wireless network, granting it access to the internet.</p>
+
+                    <h3>4. Cloud Communication (HTTP/API)</h3>
+                    <p>The ESP32 securely transmits the processed temperature and humidity values to the ThingSpeak Cloud platform via HTTP requests, using a unique channel Write API key.</p>
+
+                    <h3>5. Visualization (ThingSpeak)</h3>
+                    <p>ThingSpeak receives the data, stores it in a cloud database, and automatically plots real-time line graphs so you can monitor environmental changes over time from anywhere.</p>
+                </section>
+
+                <br>
+
+                <section class="mb-4">
+                    <h2>Components Required</h2>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr><th>Component</th><th>Quantity</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>ESP32</td><td>1</td></tr>
+                            <tr><td>DHT11 or DHT22 Sensor</td><td>1</td></tr>
+                            <tr><td>Breadboard</td><td>1</td></tr>
+                            <tr><td>Jumper Wires</td><td>Few</td></tr>
+                            <tr><td>USB Cable</td><td>1</td></tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="mb-4" id="projectPhotos">
+                    <img src="../images/project4-photo1.jpg" alt="Weather Monitoring - Setup">
+                </section>
+
+
+
+          </div>
         
       </main>
       <footer class="footer">

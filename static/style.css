@@ -37,6 +37,33 @@
     z-index: -1;
     height: 100vh;
 }
+#projectsbody{
+    background-image: url("../images/projectback.jpg");
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+}
+#corebody{
+    background-image: url("../images/coreback1.jpg");
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+}
+#techbody{
+    background-image: url("../images/techback.jpg");
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+}
+#contactbody{
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+}
+
+
+
 
 
 
@@ -120,6 +147,7 @@
 
 
 
+
 #lividoutdiv{
     display: flex;
     justify-content: center;
@@ -144,6 +172,135 @@
     color: #1a1a1a; 
 
 }
+
+
+
+
+
+#projectoutdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.same4{
+    display:inline-block;
+    width: 250px;
+    height: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 90px;
+    padding-top: 20px;
+    line-height: 100px;
+    margin-top: 120px;
+    margin-left:20px;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: rgba(39, 176, 222, 0.462);
+    color: #1a1a1a; 
+
+}
+
+
+
+
+
+#coreoutdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.same5{
+    display:inline-block;
+    width: 250px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-top: 20px;
+    line-height: 100px;
+    margin-top: 120px;
+    margin-left:20px;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: rgba(20, 204, 99, 0.4);
+    color: #1a1a1a; 
+
+}
+
+
+
+
+#techoutbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.same6{
+    display:inline-block;
+    width: 250px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-top: 20px;
+    line-height: 100px;
+    margin-top: 120px;
+    margin-left:20px;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: rgba(213, 227, 219, 0.4);
+    color: #1a1a1a; 
+
+}
+
+
+
+
+#contactoutdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.same7{
+    display:inline-block;
+    width: 250px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-top: 20px;
+    line-height: 100px;
+    margin-top: 120px;
+    margin-left:20px;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: rgba(213, 227, 219, 0.4);
+    color: #1a1a1a; 
+
+}
+
+#contact1{
+    background-image: url("../images/linkedin.jpg");
+    background-size: cover;
+    opacity: 0.7;
+}
+#contact2{
+    background-image: url("../images/github.jpg");
+    background-size: cover;
+    opacity: 0.7;
+}
+
+
+
 
 
 
@@ -180,8 +337,6 @@
     line-height: 1.6;
     font-size: 16px;
 }
-
-
 
 
 #projectPhotos img {
